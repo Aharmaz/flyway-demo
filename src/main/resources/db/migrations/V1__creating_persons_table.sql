@@ -1,5 +1,5 @@
 create table "persons" (
-    "id" int,
+    "id" serial,
     "first_name" text not null,
     "last_name" text not null,
     "age" int not null,
